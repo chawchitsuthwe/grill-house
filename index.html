@@ -14,6 +14,8 @@
     />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/index.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
     <div class="main-content">
@@ -58,23 +60,109 @@
       </nav>
 
       <!-- slideshow banner -->
-      <div class="slideshow-container">
-        <div class="banner-text">GRILL HOUSE</div>
-        <div class="mySlides fade">
-          <div class="overlay"></div>
-          <img src="img/bg-img1.jpeg" style="width: 100%" />
-        </div>
+      <div class="slider-container">
+        <h1>GRILL HOUSE</h1>
+        <div class="overlay"></div>
 
-        <div class="mySlides fade">
-          <div class="overlay"></div>
-          <img src="img/bg-img2.jpeg" style="width: 100%" />
-        </div>
+        <div
+          class="slider"
+          style="background-image: url('img/bg-img1.jpeg')"
+        ></div>
 
-        <div class="mySlides fade">
-          <div class="overlay"></div>
-          <img src="img/bg-img3.jpeg" style="width: 100%" />
+        <div
+          class="slider"
+          style="background-image: url('img/bg-img2.jpeg')"
+        ></div>
+
+        <div
+          class="slider"
+          style="background-image: url('img/bg-img3.jpeg')"
+        ></div>
+
+        <div class="controls-container">
+          <div class="control"></div>
+          <div class="control"></div>
+          <div class="control"></div>
         </div>
       </div>
+
+      <!-- pick up -->
+      <section class="my-5">
+        <div class="container">
+          <h2>PICK UP</h2>
+        </div>
+
+        <div class="container-fluid">
+          <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="img/bg-img1.jpeg" class="d-block w-100" alt="..."> </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 1</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="img/bg-img2.jpeg" class="d-block w-100" alt="..."> </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 2</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="img/bg-img3.jpeg" class="d-block w-100" alt="..."> </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 3</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="img/food-1.jpeg" class="d-block w-100" alt="..."> </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 4</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="img/food-2.jpeg" class="d-block w-100" alt="..."> </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 5</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="img/restaurant-1.jpeg" class="d-block w-100" alt="..."> </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 6</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="img/restaurant-2.jpeg" class="d-block w-100" alt="..."> </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 7</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        </div>
+      </section>
 
       <!-- concept -->
       <section class="my-5">
@@ -215,8 +303,8 @@
       <!-- cooking class -->
       <section class="py-5">
         <h2 class="text-center">COOKING CLASS</h2>
-        <div class="container my-5">
-          <div class="row d-flex align-items-center my-5">
+        <div class="container">
+          <div class="row d-flex align-items-center">
             <div class="col-lg-8 col-sm-12">
               <img
                 src="img/restaurant-5.jpeg"
@@ -318,11 +406,7 @@
         </div>
 
         <!-- Copyright -->
-        <div
-          class="text-center p-3"
-        >
-          © 2022 Copyright: GRILL HOUSE
-        </div>
+        <div class="text-center p-3">© 2022 Copyright: GRILL HOUSE</div>
       </div>
     </footer>
 

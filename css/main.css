@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ",
     Meiryo, "ＭＳ Ｐゴシック", sans-serif;
@@ -43,8 +47,8 @@ img {
 }
 
 .my-5 {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 100px!important;
+  margin-bottom: 100px!important;
 }
 
 footer {
@@ -74,6 +78,7 @@ footer .container-fluid {
 @media (max-width: 768px) {
   .main-content {
     position: static;
+    margin-bottom: 20px;
   }
 
   footer {
