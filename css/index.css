@@ -119,6 +119,9 @@
   object-fit: cover;
 }
 
+.reserve-section {
+  background-color: #e6e5e1;
+}
 
 .carousel-inner {
   padding: 1em;
@@ -158,12 +161,17 @@
     max-height: 100%;
     object-fit: cover;
 }
+
+.card:hover .img-wrapper {
+  padding: 10px;
+}
+
+.notice {
+  color: #84827c;
+}
+
 @media (max-width: 767px) {
   .card .img-wrapper {
     height: 17em;
   }
-}
-
-.card:hover .img-wrapper {
-  padding: 10px;
 }

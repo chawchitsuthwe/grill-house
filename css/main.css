@@ -51,6 +51,10 @@ img {
   margin-bottom: 100px!important;
 }
 
+.p-5 {
+  padding: 100px!important;
+}
+
 footer {
   position: fixed;
   bottom: 0;
@@ -73,6 +77,18 @@ footer a {
 footer .container-fluid {
   position: absolute;
   bottom: 50px;
+}
+
+.border-top {
+  border-top: 1px solid #dbdad4!important;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #dbdad4!important;
+}
+
+.border-right {
+  border-right: 1px solid #dbdad4!important;
 }
 
 @media (max-width: 768px) {
