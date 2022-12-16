@@ -67,7 +67,7 @@ if (window.matchMedia("(min-width: 768px)").matches) {
 
 // news section tab function
 function selectNewsCategory(evt, categoryName) {
-  var i, tabcontent, tablinks;
+  var i, newsContent, newsNav;
   newsContent = document.getElementsByClassName("news-content");
   for (i = 0; i < newsContent.length; i++) {
     newsContent[i].style.display = "none";
