@@ -114,9 +114,15 @@ footer .container-fluid {
   .overlay-nav {
     height: 100vh;
     background-color: #696969;
-    transition: all .3s ease-out;
+    transition: all .5s ease-out;
     font-size: 20px;
     line-height: 3rem;
+    overflow-y: auto;
+  }
+
+  .overlay-nav .container-fluid {
+    position: fixed;
+    top: 0;
   }
   
   .overlay-nav .nav-link {
