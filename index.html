@@ -1,532 +1,492 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Grill House</title>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/index.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grill House</title>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  </head>
-  <body>
-    <div class="main-content">
-      <!-- navbar -->
-      <nav class="navbar fixed-top navbar-expand-lg navbar-transparent">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="Grill House"></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">PICK UP</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">SERVICE</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">NEWS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">RECRUIT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">ACCESS</a>
-              </li>
-            </ul>
-            <div class="d-flex">
-              <button class="btn btn-default-black">RESERVE</button>
-            </div>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/index.css" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="main-content">
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="Grill House"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">PICK UP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SERVICE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">NEWS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">RECRUIT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ACCESS</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <button class="btn btn-default-black">RESERVE</button>
           </div>
-        </div>
-      </nav>
-
-      <!-- slideshow banner -->
-      <div class="slider-container">
-        <h1>GRILL HOUSE</h1>
-        <div class="overlay"></div>
-
-        <div
-          class="slider"
-          style="background-image: url('img/bg-img1.jpeg')"
-        ></div>
-
-        <div
-          class="slider"
-          style="background-image: url('img/bg-img2.jpeg')"
-        ></div>
-
-        <div
-          class="slider"
-          style="background-image: url('img/bg-img3.jpeg')"
-        ></div>
-
-        <div class="controls-container">
-          <div class="control"></div>
-          <div class="control"></div>
-          <div class="control"></div>
         </div>
       </div>
+    </nav>
 
-      <!-- pick up -->
-      <section class="my-5">
-        <div class="container">
-          <h2>PICK UP</h2>
-        </div>
+    <!-- slideshow banner -->
+    <div class="slider-container">
+      <h1>GRILL HOUSE</h1>
+      <div class="overlay"></div>
 
-        <div class="container-fluid">
-          <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="card">
-                        <div class="img-wrapper"><img src="img/bg-img1.jpeg" class="d-block w-100" alt="..."> </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title 1</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card">
-                        <div class="img-wrapper"><img src="img/bg-img2.jpeg" class="d-block w-100" alt="..."> </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title 2</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card">
-                        <div class="img-wrapper"><img src="img/bg-img3.jpeg" class="d-block w-100" alt="..."> </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title 3</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card">
-                        <div class="img-wrapper"><img src="img/food-1.jpeg" class="d-block w-100" alt="..."> </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title 4</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card">
-                        <div class="img-wrapper"><img src="img/food-2.jpeg" class="d-block w-100" alt="..."> </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title 5</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card">
-                        <div class="img-wrapper"><img src="img/restaurant-1.jpeg" class="d-block w-100" alt="..."> </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title 6</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card">
-                        <div class="img-wrapper"><img src="img/restaurant-2.jpeg" class="d-block w-100" alt="..."> </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title 7</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-        </div>
-      </section>
+      <div class="slider" style="background-image: url('img/bg-img1.jpeg')"></div>
 
-      <!-- concept -->
-      <section class="my-5">
-        <div class="container container-modify my-5">
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <h2>CONCEPT</h2>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <h5 class="mb-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Temporibus facilis sapiente ipsum nulla magni laborum voluptatem
-                delectus vero? Recusandae eius molestias.
-              </h5>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
-                fugit magni, consequatur omnis sapiente provident atque
-                molestiae neque possimus laboriosam aperiam. Accusantium modi
-                consequuntur explicabo ad, illo animi suscipit odio.
-              </p>
-            </div>
-          </div>
-        </div>
+      <div class="slider" style="background-image: url('img/bg-img2.jpeg')"></div>
 
-        <div class="container">
-          <div class="row text-center d-flex align-items-center">
-            <div class="col-lg-4 mb-lg-0 mb-5">
-              <img
-                src="img/restaurant-1.jpeg"
-                alt="Grill House"
-                class="concept-img align-middle"
-              />
-            </div>
-            <div class="col-lg-8">
-              <img
-                src="img/restaurant-2.jpeg"
-                alt="Grill House"
-                class="concept-img align-middle"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+      <div class="slider" style="background-image: url('img/bg-img3.jpeg')"></div>
 
-      <!-- restaurant -->
-      <section class="my-5">
-        <div class="container">
-          <h2>RESTAURANT</h2>
-        </div>
-
-        <div class="container-fluid">
-          <img
-            src="img/restaurant-3.jpeg"
-            alt="Grill House"
-            class="restaurant-img"
-          />
-        </div>
-
-        <div class="container container-modify my-5">
-          <div class="row d-flex align-items-center">
-            <div class="col-lg-6 col-sm-12 align-middle text-center mb-3">
-              <h2>GRILL HOUSE</h2>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
-                fugit magni, consequatur omnis sapiente provident atque
-                molestiae neque possimus laboriosam aperiam.
-              </p>
-              <button class="btn btn-default-black">RESERVE</button>
-            </div>
-            <div class="col-lg-6 col-sm-12">
-              <img
-                src="img/restaurant-1.jpeg"
-                alt="Grill House"
-                class="restaurant-img"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- delicatessen -->
-      <section class="my-5">
-        <div class="container">
-          <h2>DELICATESSEN</h2>
-        </div>
-
-        <div class="container-fluid">
-          <img src="img/food-1.jpeg" alt="Grill House" class="restaurant-img" />
-        </div>
-
-        <div class="container container-modify my-5">
-          <div class="row d-flex align-items-center">
-            <div class="col-lg-6 col-sm-12">
-              <img
-                src="img/food-2.jpeg"
-                alt="Grill House"
-                class="restaurant-img"
-              />
-            </div>
-            <div class="col-lg-6 col-sm-12 align-middle text-center mb-3">
-              <h2>GRILL HOUSE</h2>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
-                fugit magni, consequatur omnis sapiente provident atque
-                molestiae neque possimus laboriosam aperiam.
-              </p>
-              <button class="btn btn-default-black">READ MORE</button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- shop -->
-      <section class="my-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4 text-center align-self-end mb-5">
-              <h2>SHOP</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
-                velit. Quis culpa quos aperiam. Nostrum assumenda laboriosam aut
-                autem voluptates velit praesentium explicabo repudiandae,
-                officiis corrupti, eum magnam exercitationem porro.
-              </p>
-              <button class="btn btn-default-black">READ MORE</button>
-            </div>
-            <div class="col-lg-8">
-              <img
-                src="img/restaurant-4.jpeg"
-                alt="Grill House"
-                class="shop-img"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- cooking class -->
-      <section class="my-5">
-        <h2 class="text-center">COOKING CLASS</h2>
-        <div class="container">
-          <div class="row d-flex align-items-center">
-            <div class="col-lg-8 col-sm-12">
-              <img
-                src="img/restaurant-5.jpeg"
-                alt="Grill House"
-                class="cooking-img"
-              />
-            </div>
-            <div class="col-lg-4 col-sm-12 align-self-end text-center mb-3">
-              <h2>GRILL HOUSE</h2>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
-                fugit magni, consequatur omnis sapiente provident atque
-                molestiae neque possimus laboriosam aperiam.
-              </p>
-              <button class="btn btn-default-black">READ MORE</button>
-            </div>
-          </div>
-
-          <div class="row d-flex align-items-center my-5">
-            <div class="col-lg-4 col-sm-12 align-self-end text-center mb-3">
-              <h2>GRILL HOUSE</h2>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
-                fugit magni, consequatur omnis sapiente provident atque
-                molestiae neque possimus laboriosam aperiam.
-              </p>
-              <button class="btn btn-default-black">READ MORE</button>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <img
-                src="img/restaurant-6.jpeg"
-                alt="Grill House"
-                class="cooking-img"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- reserve -->
-      <section class="my-5">
-        <div class="container reserve-section p-5">
-          <div class="text-center mb-5">
-            <h1>RESERVE</h1>
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-          </div>
-          <div class="row d-flex align-items-center py-5 border-top border-bottom">
-            <div class="col-lg-10 mb-5 mb-lg-0">
-              <h4>RESTAURANT</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <span class="notice">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-            </div>
-            <div class="col-lg-2 align-middle">
-              <button class="btn btn-default-black">NEXT</button>
-            </div>
-          </div>
-          <div class="row py-5 border-bottom">
-            <div class="col-lg-4 mb-5">
-              <h4>COOKING CLASS</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <span class="notice">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-            </div>
-            <div class="col-lg-2 mb-5 mb-lg-0 d-flex align-items-center">
-              <button class="btn btn-default-black">NEXT</button>
-            </div>
-            <div class="col-lg-4 mb-5">
-              <h4>COOKING CLASS</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <span class="notice">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-            </div>
-            <div class="col-lg-2 d-flex align-items-center">
-              <button class="btn btn-default-black">NEXT</button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- news -->
-      <section class="py-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3">
-              <h2>NEWS</h2>
-            </div>
-            <div class="col-lg-2">
-              <button class="news-nav" onclick="selectNewsCategory(event, 'all')" id="defaultSelect">ALL</button>
-              <button class="news-nav" onclick="selectNewsCategory(event, 'news')">NEWS</button>
-              <button class="news-nav" onclick="selectNewsCategory(event, 'media')">MEDIA</button>
-            </div>
-            <div class="col-lg-7">
-              <div id="all" class="news-content">
-                <div class="news-item border-top border-bottom pt-4">
-                  <span>2022.12.16</span>
-                  <span class="news-category">NEWS</span>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat quisquam.</p>
-                </div>
-                <div class="news-item border-bottom pt-4">
-                  <span>2022.12.16</span>
-                  <span class="news-category">MEDIA</span>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat quisquam.</p>
-                </div>
-                <div class="news-item border-bottom pt-4">
-                  <span >2022.12.16</span>
-                  <span class="news-category">NEWS</span>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat quisquam.</p>
-                </div>
-              </div>
-              <div id="news" class="news-content">
-                <div class="news-item border-top border-bottom pt-4">
-                  <span>2022.12.16</span>
-                  <span class="news-category">NEWS</span>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat quisquam.</p>
-                </div>
-                <div class="news-item border-bottom pt-4">
-                  <span>2022.12.16</span>
-                  <span class="news-category">NEWS</span>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat quisquam.</p>
-                </div>
-                <div class="news-item border-bottom pt-4">
-                  <span >2022.12.16</span>
-                  <span class="news-category">NEWS</span>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat quisquam.</p>
-                </div>
-              </div>
-              <div id="media" class="news-content">
-                <div class="news-item border-top border-bottom pt-4">
-                  <span>2022.12.16</span>
-                  <span class="news-category">MEDIA</span>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat quisquam.</p>
-                </div>
-                <div class="news-item border-bottom pt-4">
-                  <span>2022.12.16</span>
-                  <span class="news-category">MEDIA</span>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat quisquam.</p>
-                </div>
-                <div class="news-item border-bottom pt-4">
-                  <span >2022.12.16</span>
-                  <span class="news-category">MEDIA</span>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat quisquam.</p>
-                </div>
-              </div>
-              <button class="btn btn-default-black my-4">VIEW MORE</button>
-            </div>
-          </div>
-        </div>
-      </section>
+      <div class="controls-container">
+        <div class="control"></div>
+        <div class="control"></div>
+        <div class="control"></div>
+      </div>
     </div>
 
-    <!-- footer -->
-    <footer>
+    <!-- pick up -->
+    <section class="my-5">
+      <div class="container">
+        <h2>PICK UP</h2>
+      </div>
+
       <div class="container-fluid">
-        <div class="container p-4">
-          <section>
-            <div class="row">
-              <div class="col-lg-3 col-md-12 mb-4">
-                <h3>GRILL HOUSE</h3>
-              </div>
-              <div class="col-lg-3 col-md-4 mb-4">
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a href="#!">PICK UP</a>
-                  </li>
-                  <li>
-                    <a href="#!">SERVICE</a>
-                  </li>
-                  <li>
-                    <a href="#!">NEWS</a>
-                  </li>
-                  <li>
-                    <a href="#!">RECRUIT</a>
-                  </li>
-                  <li>
-                    <a href="#!">ACCESS</a>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="col-lg-3 col-md-4 mb-4">
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a href="#!">YOUTUBE</a>
-                  </li>
-                  <li>
-                    <a href="#!">FACEBOOK</a>
-                  </li>
-                  <li>
-                    <a href="#!">INSTAGRAM</a>
-                  </li>
-                  <li>
-                    <a href="#!">LINE</a>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="col-lg-3 col-md-4 mb-4">
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a href="#!">BRAND SITE</a>
-                  </li>
-                  <li>
-                    <a href="#!">PRIVACY POLICY</a>
-                  </li>
-                </ul>
+        <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card">
+                <div class="img-wrapper"><img src="img/bg-img1.jpeg" class="d-block w-100" alt="..."> </div>
+                <div class="card-body">
+                  <h5 class="card-title">Card title 1</h5>
+                </div>
               </div>
             </div>
-          </section>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="img-wrapper"><img src="img/bg-img2.jpeg" class="d-block w-100" alt="..."> </div>
+                <div class="card-body">
+                  <h5 class="card-title">Card title 2</h5>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="img-wrapper"><img src="img/bg-img3.jpeg" class="d-block w-100" alt="..."> </div>
+                <div class="card-body">
+                  <h5 class="card-title">Card title 3</h5>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="img-wrapper"><img src="img/food-1.jpeg" class="d-block w-100" alt="..."> </div>
+                <div class="card-body">
+                  <h5 class="card-title">Card title 4</h5>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="img-wrapper"><img src="img/food-2.jpeg" class="d-block w-100" alt="..."> </div>
+                <div class="card-body">
+                  <h5 class="card-title">Card title 5</h5>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="img-wrapper"><img src="img/restaurant-1.jpeg" class="d-block w-100" alt="..."> </div>
+                <div class="card-body">
+                  <h5 class="card-title">Card title 6</h5>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="img-wrapper"><img src="img/restaurant-2.jpeg" class="d-block w-100" alt="..."> </div>
+                <div class="card-body">
+                  <h5 class="card-title">Card title 7</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- concept -->
+    <section class="my-5">
+      <div class="container container-modify my-5">
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <h2>CONCEPT</h2>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <h5 class="mb-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus facilis sapiente ipsum nulla magni laborum voluptatem
+              delectus vero? Recusandae eius molestias.
+            </h5>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
+              fugit magni, consequatur omnis sapiente provident atque
+              molestiae neque possimus laboriosam aperiam. Accusantium modi
+              consequuntur explicabo ad, illo animi suscipit odio.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row text-center d-flex align-items-center">
+          <div class="col-lg-4 mb-lg-0 mb-5">
+            <img src="img/restaurant-1.jpeg" alt="Grill House" class="concept-img align-middle" />
+          </div>
+          <div class="col-lg-8">
+            <img src="img/restaurant-2.jpeg" alt="Grill House" class="concept-img align-middle" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- restaurant -->
+    <section class="my-5">
+      <div class="container">
+        <h2>RESTAURANT</h2>
+      </div>
+
+      <div class="container-fluid">
+        <img src="img/restaurant-3.jpeg" alt="Grill House" class="restaurant-img" />
+      </div>
+
+      <div class="container container-modify my-5">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-6 col-sm-12 align-middle text-center mb-3">
+            <h2>GRILL HOUSE</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
+              fugit magni, consequatur omnis sapiente provident atque
+              molestiae neque possimus laboriosam aperiam.
+            </p>
+            <button class="btn btn-default-black">RESERVE</button>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <img src="img/restaurant-1.jpeg" alt="Grill House" class="restaurant-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- delicatessen -->
+    <section class="my-5">
+      <div class="container">
+        <h2>DELICATESSEN</h2>
+      </div>
+
+      <div class="container-fluid">
+        <img src="img/food-1.jpeg" alt="Grill House" class="restaurant-img" />
+      </div>
+
+      <div class="container container-modify my-5">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-6 col-sm-12">
+            <img src="img/food-2.jpeg" alt="Grill House" class="restaurant-img" />
+          </div>
+          <div class="col-lg-6 col-sm-12 align-middle text-center mb-3">
+            <h2>GRILL HOUSE</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
+              fugit magni, consequatur omnis sapiente provident atque
+              molestiae neque possimus laboriosam aperiam.
+            </p>
+            <button class="btn btn-default-black">READ MORE</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- shop -->
+    <section class="my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 text-center align-self-end mb-5">
+            <h2>SHOP</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+              velit. Quis culpa quos aperiam. Nostrum assumenda laboriosam aut
+              autem voluptates velit praesentium explicabo repudiandae,
+              officiis corrupti, eum magnam exercitationem porro.
+            </p>
+            <button class="btn btn-default-black">READ MORE</button>
+          </div>
+          <div class="col-lg-8">
+            <img src="img/restaurant-4.jpeg" alt="Grill House" class="shop-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cooking class -->
+    <section class="my-5">
+      <h2 class="text-center">COOKING CLASS</h2>
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-8 col-sm-12">
+            <img src="img/restaurant-5.jpeg" alt="Grill House" class="cooking-img" />
+          </div>
+          <div class="col-lg-4 col-sm-12 align-self-end text-center mb-3">
+            <h2>GRILL HOUSE</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
+              fugit magni, consequatur omnis sapiente provident atque
+              molestiae neque possimus laboriosam aperiam.
+            </p>
+            <button class="btn btn-default-black">READ MORE</button>
+          </div>
         </div>
 
-        <!-- Copyright -->
-        <div class="text-center p-3">© 2022 Copyright: GRILL HOUSE</div>
+        <div class="row d-flex align-items-center my-5">
+          <div class="col-lg-4 col-sm-12 align-self-end text-center mb-3">
+            <h2>GRILL HOUSE</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
+              fugit magni, consequatur omnis sapiente provident atque
+              molestiae neque possimus laboriosam aperiam.
+            </p>
+            <button class="btn btn-default-black">READ MORE</button>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <img src="img/restaurant-6.jpeg" alt="Grill House" class="cooking-img" />
+          </div>
+        </div>
       </div>
-      <div class="page-top" id="page-top">
-        <span>PAGE TOP</span>
-      </div>
-    </footer>
+    </section>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/main.js"></script>
-    <script src="js/index.js"></script>
-  </body>
+    <!-- reserve -->
+    <section class="my-5">
+      <div class="container reserve-section p-5">
+        <div class="text-center mb-5">
+          <h1>RESERVE</h1>
+          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+        </div>
+        <div class="row d-flex align-items-center py-5 border-top border-bottom">
+          <div class="col-lg-10 mb-5 mb-lg-0">
+            <h4>RESTAURANT</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <span class="notice">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+          </div>
+          <div class="col-lg-2 align-middle">
+            <button class="btn btn-default-black">NEXT</button>
+          </div>
+        </div>
+        <div class="row py-5 border-bottom">
+          <div class="col-lg-4 mb-5">
+            <h4>COOKING CLASS</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <span class="notice">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+          </div>
+          <div class="col-lg-2 mb-5 mb-lg-0 d-flex align-items-center">
+            <button class="btn btn-default-black">NEXT</button>
+          </div>
+          <div class="col-lg-4 mb-5">
+            <h4>COOKING CLASS</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <span class="notice">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+          </div>
+          <div class="col-lg-2 d-flex align-items-center">
+            <button class="btn btn-default-black">NEXT</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- news -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <h2>NEWS</h2>
+          </div>
+          <div class="col-lg-2">
+            <button class="news-nav" onclick="selectNewsCategory(event, 'all')" id="defaultSelect">ALL</button>
+            <button class="news-nav" onclick="selectNewsCategory(event, 'news')">NEWS</button>
+            <button class="news-nav" onclick="selectNewsCategory(event, 'media')">MEDIA</button>
+          </div>
+          <div class="col-lg-7">
+            <div id="all" class="news-content">
+              <div class="news-item border-top border-bottom pt-4">
+                <span>2022.12.16</span>
+                <span class="news-category">NEWS</span>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat
+                  quisquam.</p>
+              </div>
+              <div class="news-item border-bottom pt-4">
+                <span>2022.12.16</span>
+                <span class="news-category">MEDIA</span>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat
+                  quisquam.</p>
+              </div>
+              <div class="news-item border-bottom pt-4">
+                <span>2022.12.16</span>
+                <span class="news-category">NEWS</span>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat
+                  quisquam.</p>
+              </div>
+            </div>
+            <div id="news" class="news-content">
+              <div class="news-item border-top border-bottom pt-4">
+                <span>2022.12.16</span>
+                <span class="news-category">NEWS</span>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat
+                  quisquam.</p>
+              </div>
+              <div class="news-item border-bottom pt-4">
+                <span>2022.12.16</span>
+                <span class="news-category">NEWS</span>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat
+                  quisquam.</p>
+              </div>
+              <div class="news-item border-bottom pt-4">
+                <span>2022.12.16</span>
+                <span class="news-category">NEWS</span>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat
+                  quisquam.</p>
+              </div>
+            </div>
+            <div id="media" class="news-content">
+              <div class="news-item border-top border-bottom pt-4">
+                <span>2022.12.16</span>
+                <span class="news-category">MEDIA</span>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat
+                  quisquam.</p>
+              </div>
+              <div class="news-item border-bottom pt-4">
+                <span>2022.12.16</span>
+                <span class="news-category">MEDIA</span>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat
+                  quisquam.</p>
+              </div>
+              <div class="news-item border-bottom pt-4">
+                <span>2022.12.16</span>
+                <span class="news-category">MEDIA</span>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat
+                  quisquam.</p>
+              </div>
+            </div>
+            <button class="btn btn-default-black my-4">VIEW MORE</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- footer -->
+  <footer>
+    <div class="container-fluid">
+      <div class="container p-4">
+        <section>
+          <div class="row">
+            <div class="col-lg-3 col-md-12 mb-4">
+              <h3>GRILL HOUSE</h3>
+            </div>
+            <div class="col-lg-3 col-md-4 mb-4">
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!">PICK UP</a>
+                </li>
+                <li>
+                  <a href="#!">SERVICE</a>
+                </li>
+                <li>
+                  <a href="#!">NEWS</a>
+                </li>
+                <li>
+                  <a href="#!">RECRUIT</a>
+                </li>
+                <li>
+                  <a href="#!">ACCESS</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-4 mb-4">
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!">YOUTUBE</a>
+                </li>
+                <li>
+                  <a href="#!">FACEBOOK</a>
+                </li>
+                <li>
+                  <a href="#!">INSTAGRAM</a>
+                </li>
+                <li>
+                  <a href="#!">LINE</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-4 mb-4">
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!">BRAND SITE</a>
+                </li>
+                <li>
+                  <a href="#!">PRIVACY POLICY</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Copyright -->
+      <div class="text-center p-3">© 2022 Copyright: GRILL HOUSE</div>
+    </div>
+    <div class="page-top" id="page-top">
+      <span>PAGE TOP</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
 </html>

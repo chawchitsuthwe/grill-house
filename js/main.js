@@ -18,3 +18,20 @@ function topFunction() {
 }
 var pageTop = document.getElementById("page-top");
 pageTop.addEventListener("click", topFunction);
+
+
+// news section tab function
+function selectNewsCategory(evt, categoryName) {
+  var i, newsContent, newsNav;
+  newsContent = document.getElementsByClassName("news-content");
+  for (i = 0; i < newsContent.length; i++) {
+    newsContent[i].style.display = "none";
+  }
+  newsNav = document.getElementsByClassName("news-nav");
+  for (i = 0; i < newsNav.length; i++) {
+    newsNav[i].className = newsNav[i].className.replace(" active", "");
+  }
+  document.getElementById(categoryName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+document.getElementById("defaultSelect").click();
