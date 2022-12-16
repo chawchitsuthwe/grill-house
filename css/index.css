@@ -175,3 +175,33 @@
     height: 17em;
   }
 }
+
+.news-nav {
+  border: 0;
+  color: #C0B9B5;
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
+  background: linear-gradient(#000,#000) center bottom;
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  transition: all 0.45s;
+}
+
+.news-nav:hover, .news-nav.active {
+  color: #000;
+  background-size: 100% 2px;
+}
+
+.news-category {
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.news-item:hover {
+  cursor: pointer;
+  border-color: rgb(174, 145, 124);
+  color: rgb(174, 145, 124);
+  transition: all 0.5s ease-out;
+}

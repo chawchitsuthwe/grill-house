@@ -345,14 +345,14 @@
       </section>
 
       <!-- reserve -->
-      <section class="py-5">
+      <section class="my-5">
         <div class="container reserve-section p-5">
           <div class="text-center mb-5">
             <h1>RESERVE</h1>
             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
           </div>
           <div class="row d-flex align-items-center py-5 border-top border-bottom">
-            <div class="col-lg-10 mb-5">
+            <div class="col-lg-10 mb-5 mb-lg-0">
               <h4>RESTAURANT</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               <span class="notice">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
@@ -382,13 +382,82 @@
         </div>
       </section>
 
+      <!-- news -->
+      <section class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <h2>NEWS</h2>
+            </div>
+            <div class="col-lg-2">
+              <button class="news-nav" onclick="selectNewsCategory(event, 'all')" id="defaultSelect">ALL</button>
+              <button class="news-nav" onclick="selectNewsCategory(event, 'news')">NEWS</button>
+              <button class="news-nav" onclick="selectNewsCategory(event, 'media')">MEDIA</button>
+            </div>
+            <div class="col-lg-7">
+              <div id="all" class="news-content">
+                <div class="news-item border-top border-bottom pt-4">
+                  <span>2022.12.16</span>
+                  <span class="news-category">NEWS</span>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat quisquam.</p>
+                </div>
+                <div class="news-item border-bottom pt-4">
+                  <span>2022.12.16</span>
+                  <span class="news-category">MEDIA</span>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat quisquam.</p>
+                </div>
+                <div class="news-item border-bottom pt-4">
+                  <span >2022.12.16</span>
+                  <span class="news-category">NEWS</span>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat quisquam.</p>
+                </div>
+              </div>
+              <div id="news" class="news-content">
+                <div class="news-item border-top border-bottom pt-4">
+                  <span>2022.12.16</span>
+                  <span class="news-category">NEWS</span>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat quisquam.</p>
+                </div>
+                <div class="news-item border-bottom pt-4">
+                  <span>2022.12.16</span>
+                  <span class="news-category">NEWS</span>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat quisquam.</p>
+                </div>
+                <div class="news-item border-bottom pt-4">
+                  <span >2022.12.16</span>
+                  <span class="news-category">NEWS</span>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat quisquam.</p>
+                </div>
+              </div>
+              <div id="media" class="news-content">
+                <div class="news-item border-top border-bottom pt-4">
+                  <span>2022.12.16</span>
+                  <span class="news-category">MEDIA</span>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat quisquam.</p>
+                </div>
+                <div class="news-item border-bottom pt-4">
+                  <span>2022.12.16</span>
+                  <span class="news-category">MEDIA</span>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat quisquam.</p>
+                </div>
+                <div class="news-item border-bottom pt-4">
+                  <span >2022.12.16</span>
+                  <span class="news-category">MEDIA</span>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro assumenda odio, iure alias fugiat quisquam.</p>
+                </div>
+              </div>
+              <button class="btn btn-default-black my-4">VIEW MORE</button>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
 
     <!-- footer -->
     <footer>
       <div class="container-fluid">
         <div class="container p-4">
-          <section class="">
+          <section>
             <div class="row">
               <div class="col-lg-3 col-md-12 mb-4">
                 <h3>GRILL HOUSE</h3>
@@ -447,6 +516,9 @@
         <!-- Copyright -->
         <div class="text-center p-3">© 2022 Copyright: GRILL HOUSE</div>
       </div>
+      <div class="page-top" id="page-top">
+        <span>PAGE TOP</span>
+      </div>
     </footer>
 
     <script
@@ -454,6 +526,7 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+    <script src="js/main.js"></script>
     <script src="js/index.js"></script>
   </body>
 </html>

@@ -76,7 +76,9 @@ footer a {
 
 footer .container-fluid {
   position: absolute;
-  bottom: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .border-top {
@@ -104,5 +106,30 @@ footer .container-fluid {
 
   footer .container-fluid {
     position: static;
+    transform: translate(0%, 0%);
   }
+}
+
+@media (max-width: 992px) {
+  .overlay-nav {
+    height: 100vh;
+    background-color: #696969;
+    transition: all .3s ease-out;
+    font-size: 20px;
+    line-height: 3rem;
+  }
+  
+  .overlay-nav .nav-link {
+    color: white!important;
+  }
+}
+
+.page-top {
+  position: absolute;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  top: 50%;
+  right: 30px;
+  text-decoration: underline;
+  cursor: pointer;
 }
