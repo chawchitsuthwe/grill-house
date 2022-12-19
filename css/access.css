@@ -1,3 +1,7 @@
+.table tr:first-child td, .table tr:first-child th {
+  border-top: 1px solid var(--bs-border-color);
+}
+
 .transportation-section {
   background-color: #E6E5E1;
 }
