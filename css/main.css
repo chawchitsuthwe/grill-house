@@ -42,6 +42,17 @@ a:hover {
  height: auto;
 }
 
+.dropdown-menu{
+  background-color: #757575;
+  border-radius: 0;
+}
+
+.dropdown-item{
+  color: #FFFFFF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 h1,
 h2,
 h3,
