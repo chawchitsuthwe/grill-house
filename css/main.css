@@ -123,11 +123,8 @@ footer .container-fluid {
     font-size: 20px;
     line-height: 3rem;
     overflow-y: auto;
-  }
-
-  .overlay-nav .container-fluid {
-    position: fixed;
-    top: 0;
+    display: flex;
+    align-items: flex-start;
   }
   
   .overlay-nav .nav-link {

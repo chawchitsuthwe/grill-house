@@ -34,4 +34,6 @@ function selectNewsCategory(evt, categoryName) {
   document.getElementById(categoryName).style.display = "block";
   evt.currentTarget.className += " active";
 }
-document.getElementById("defaultSelect").click();
+if (document.getElementById("defaultSelect")) {
+  document.getElementById("defaultSelect").click();
+} 
