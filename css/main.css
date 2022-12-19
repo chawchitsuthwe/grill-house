@@ -110,7 +110,7 @@ footer .container-fluid {
   }
 
   footer {
-    position: static;
+    position: relative;
     height: 100%;
   } 
 

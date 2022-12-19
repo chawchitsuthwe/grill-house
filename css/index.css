@@ -96,10 +96,6 @@
   z-index: 1;
 }
 
-.container-modify {
-  max-width: 70vw;
-}
-
 .concept-img {
   width: 80%;
 }
@@ -136,17 +132,25 @@
   top: 50%;
   transform: translateY(-50%);
 }
+
+
+@media (min-width: 992px) {
+  .container-modify {
+    max-width: 70vw;
+  }
+}
+
 @media (min-width: 768px) {
   .carousel-item {
     margin-right: 0;
     flex: 0 0 33.333333%;
     display: block;
   }
+
   .carousel-inner {
     display: flex;
   }
 }
-
 
 .notice {
   color: #84827c;
