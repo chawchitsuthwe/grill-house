@@ -1,24 +1,19 @@
-// navbar in responsive
-var navIcon = document.getElementsByClassName("navbar-toggler");
-navIcon[0].addEventListener("click", function() {
-  var navBar = document.getElementsByClassName("navbar");
-  
-  const navbarToggler = document.getElementsByClassName("navbar-toggler");
-  if(!navbarToggler[0].classList.contains("collapsed")) {
-    navBar[0].classList.add("overlay-nav");
-  } else {
-    navBar[0].classList.remove("overlay-nav");
-  }
+$(document).ready(function(){
+  // navbar in responsive
+  $(".navbar-toggler").click(function() {
+    if(!$(".navbar-toggler").hasClass("collapsed")) {
+      $(".navbar").addClass("overlay-nav");
+    } else {
+      $(".navbar").removeClass("overlay-nav");
+    }
+  });
+
+  // scroll to top
+  $("#page-top").click(function() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  });
 });
-
-// scroll to top
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-var pageTop = document.getElementById("page-top");
-pageTop.addEventListener("click", topFunction);
-
 
 // news section tab function
 function selectNewsCategory(evt, categoryName) {
