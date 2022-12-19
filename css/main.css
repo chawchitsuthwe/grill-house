@@ -145,8 +145,12 @@ footer .container-fluid {
   cursor: pointer;
 }
 
-.pageTitle {
+.page-title {
   height: 80vh;
+}
+
+.full-page-title {
+  height: 100vh;
 }
 
 .card {

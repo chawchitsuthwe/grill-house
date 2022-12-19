@@ -1,0 +1,13 @@
+.cover-img {
+  height: 800px;
+  object-fit: cover;
+}
+
+.restaurant-img {
+  height: 90vh;
+  object-fit: cover;
+}
+
+.table tr:first-child td, .table tr:first-child th {
+  border-top: 1px solid var(--bs-border-color);
+}
