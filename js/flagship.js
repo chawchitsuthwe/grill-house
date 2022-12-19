@@ -1,4 +1,4 @@
-var colorOne = "#f3f3f3";
+var colorOne = "#F3F3F3";
 var colorTwo = "#BDC9C6";
 
 $(window).on("scroll touchmove", function () {

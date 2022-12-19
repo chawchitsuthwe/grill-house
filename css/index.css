@@ -9,7 +9,7 @@
 }
 
 .slider-container h1 {
-  color: #fff;
+  color: #FFFFFF;
   font-size: 100px;
   letter-spacing: 5px;
   position: relative;
@@ -71,7 +71,7 @@
 }
 
 .control {
-  background-color: #fff;
+  background-color: #FFFFFF;
   cursor: pointer;
   opacity: 0.5;
   margin: 6px;
@@ -82,14 +82,14 @@
 
 .control.active,
 .control:hover {
-  background-color: #fff;
+  background-color: #FFFFFF;
   opacity: 1;
   transform: scale(1.2);
 }
 
 .overlay {
   position: absolute;
-  background-color: white;
+  background-color: #FFFFFF;
   opacity: 0.5;
   height: 100vh;
   width: 100%;
@@ -116,7 +116,7 @@
 }
 
 .reserve-section {
-  background-color: #e6e5e1;
+  background-color: #E6E5E1;
 }
 
 .carousel-inner {
@@ -125,7 +125,7 @@
 
 .carousel-control-prev,
 .carousel-control-next {
-  background-color: #e1e1e1;
+  background-color: #E1E1E1;
   width: 6vh;
   height: 6vh;
   border-radius: 50%;
@@ -134,7 +134,7 @@
 }
 
 .notice {
-  color: #84827c;
+  color: #84827C;
 }
 
 @media (min-width: 992px) {
