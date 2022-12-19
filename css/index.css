@@ -133,6 +133,9 @@
   transform: translateY(-50%);
 }
 
+.notice {
+  color: #84827c;
+}
 
 @media (min-width: 992px) {
   .container-modify {
@@ -150,10 +153,6 @@
   .carousel-inner {
     display: flex;
   }
-}
-
-.notice {
-  color: #84827c;
 }
 
 @media (max-width: 767px) {

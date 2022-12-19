@@ -114,40 +114,6 @@ footer .container-fluid {
   border-right: 1px solid #dbdad4!important;
 }
 
-@media (max-width: 768px) {
-  .main-content {
-    position: static;
-    margin-bottom: 20px;
-  }
-
-  footer {
-    position: relative;
-    height: 100%;
-  } 
-
-  footer .container-fluid {
-    position: static;
-    transform: translate(0%, 0%);
-  }
-}
-
-@media (max-width: 992px) {
-  .overlay-nav {
-    height: 100vh;
-    background-color: #696969;
-    transition: all .5s ease-out;
-    font-size: 20px;
-    line-height: 3rem;
-    overflow-y: auto;
-    display: flex;
-    align-items: flex-start;
-  }
-  
-  .overlay-nav .nav-link {
-    color: white!important;
-  }
-}
-
 .page-top {
   position: absolute;
   writing-mode: vertical-rl;
@@ -221,4 +187,38 @@ footer .container-fluid {
   border-color: rgb(174, 145, 124);
   color: rgb(174, 145, 124);
   transition: all 0.5s ease-out;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    position: static;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    position: relative;
+    height: 100%;
+  } 
+
+  footer .container-fluid {
+    position: static;
+    transform: translate(0%, 0%);
+  }
+}
+
+@media (max-width: 992px) {
+  .overlay-nav {
+    height: 100vh;
+    background-color: #696969;
+    transition: all .5s ease-out;
+    font-size: 20px;
+    line-height: 3rem;
+    overflow-y: auto;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .overlay-nav .nav-link {
+    color: white!important;
+  }
 }
