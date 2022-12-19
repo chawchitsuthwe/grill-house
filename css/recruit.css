@@ -29,3 +29,7 @@
   background: #cb2027;
   color: white;
 }
+
+.sticky-top {
+  top: 100px;
+}
