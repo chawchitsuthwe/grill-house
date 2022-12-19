@@ -7,23 +7,6 @@
   object-fit: cover;
 }
 
-/* .recruit-section .row {
-    position: relative;
-}
-
-.fixed-column-parent {
-    position: relative;
-    max-height: 100vh;
-}
-
-.fixed-column {
-    position: fixed;
-}
-
-.recruit-section {
-    position: relative;
-} */
-
 .fa {
   padding: 10px;
   font-size: 30px;
@@ -34,6 +17,7 @@
 
 .fa:hover {
   opacity: 0.7;
+  color: #FFFFFF;
 }
 
 .fa-twitter {
